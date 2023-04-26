@@ -1,0 +1,126 @@
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #E6EFF5;
+}
+
+
+h1{
+    color: hsl(179, 62%, 43%);
+}
+h2{
+    color: hsl(71, 73%, 54%);
+}
+.main{
+    width: 39.6875rem;
+    padding: 10px;
+    background-color: white;
+    
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: 0cm;
+    border-radius: 3px;
+     
+}
+button:hover {
+	background: #9CB638;
+	cursor: pointer;
+}
+.Monthly{
+    display: flex;
+	flex-direction: column;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 10px;
+    
+}
+.Why-Us{
+    display: flex;
+	flex-direction: column;
+    background-color: hsl(179, 67%, 54%);
+    color: white;
+    padding: 10px;
+
+}
+.container{
+    display: flex;
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	grid-column: 1 / span 2;
+}
+
+span {
+	margin-left: 0.6875rem;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.625rem;
+	letter-spacing: -0.0125rem;
+	color: #FFFFFF;	
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+@media (max-width: 47.9375rem) {
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: #E6EFF5;
+	}
+
+	.main{
+		display: grid;
+		grid-template-rows: 16.6875rem 1fr 1fr;
+		grid-template-columns: none;
+		width: 19.4375rem;
+		height: 45.125rem;
+		background: #FFFFFF;
+		box-shadow: 0rem 0.9375rem 1.875rem rgba(0, 81, 171, 0.148847);
+		border-radius: 0.5rem;
+		font-family: 'Karla';
+		font-style: normal;
+    }
+    .intro {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		grid-column: 1 / span 1;
+	}
+    .Monthly {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #2AB3B1;
+        width: 100%;
+	}
+    .Why-Us {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: rgba(42, 179, 177, 0.75);
+        width: 100%;
+	}
+    .container{
+        display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+    }
+
+}
+
+
+
+
